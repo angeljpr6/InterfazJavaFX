@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.serializacionbien.controlador.PersonaController">
+   <children>
+      <TextField fx:id="textoNombre" layoutX="185.0" layoutY="91.0" />
+      <Label layoutX="86.0" layoutY="95.0" text="Nombre" textFill="#0079f5" />
+      <Label layoutX="93.0" layoutY="128.0" text="Edad" textFill="#0079f5" />
+      <Label layoutX="96.0" layoutY="161.0" text="DNI" textFill="#0079f5" />
+      <Label layoutX="81.0" layoutY="193.0" text="Direccion" textFill="#0079f5" />
+      <TextField fx:id="textoEdad" layoutX="185.0" layoutY="124.0" />
+      <TextField fx:id="textoDNI" layoutX="185.0" layoutY="157.0" />
+      <TextField fx:id="textoDireccion" layoutX="185.0" layoutY="189.0" />
+      <Button layoutX="159.0" layoutY="264.0" mnemonicParsing="false" style="-fx-border-radius: 100%; -fx-border-color: #0079f5; -fx-background-color: WHITE;" text="Enviar" />
+      <Label layoutX="208.0" layoutY="34.0" text="Introduce los datos" textFill="#0079f5">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
