@@ -5,4 +5,6 @@ module com.example.serializacionbien {
 
     opens com.example.serializacionbien to javafx.fxml;
     exports com.example.serializacionbien;
+    exports com.example.serializacionbien.controlador;
+    opens com.example.serializacionbien.controlador to javafx.fxml;
 }

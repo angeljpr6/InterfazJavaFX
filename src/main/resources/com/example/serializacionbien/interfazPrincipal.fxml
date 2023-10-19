@@ -16,7 +16,7 @@
       <TextField fx:id="textoEdad" layoutX="185.0" layoutY="124.0" />
       <TextField fx:id="textoDNI" layoutX="185.0" layoutY="157.0" />
       <TextField fx:id="textoDireccion" layoutX="185.0" layoutY="189.0" />
-      <Button layoutX="159.0" layoutY="264.0" mnemonicParsing="false" style="-fx-border-radius: 100%; -fx-border-color: #0079f5; -fx-background-color: WHITE;" text="Enviar" />
+      <Button fx:id="enviar" layoutX="159.0" layoutY="264.0" mnemonicParsing="false" onAction="#click" style="-fx-border-radius: 100%; -fx-border-color: #0079f5; -fx-background-color: WHITE;" text="Enviar" />
       <Label layoutX="208.0" layoutY="34.0" text="Introduce los datos" textFill="#0079f5">
          <font>
             <Font size="24.0" />
